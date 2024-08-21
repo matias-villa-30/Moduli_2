@@ -1,5 +1,5 @@
-largo_rectangulo = int(input("Kirjoita suorakulmion kanta (cm): "))
-ancho_rectangulo = int(input("Kirjoita suorakulmion korkeus (cm): "))
-perimetro = (largo_rectangulo * 2) + (ancho_rectangulo * 2)
-area = largo_rectangulo * ancho_rectangulo
-print(f"Suorakulmion pinta-ala on: {area} cm^2 \nSuorakulmion piiren on {perimetro} cm")
+kanta = int(input("Kirjoita suorakulmion kanta (cm): "))
+korkeus = int(input("Kirjoita suorakulmion korkeus (cm): "))
+keha = (kanta + korkeus) * 2
+pinta_ala = kanta * korkeus
+print(f"Suorakulmion pinta-ala on: {pinta_ala} cm^2 \nSuorakulmion piiren on {keha} cm")
