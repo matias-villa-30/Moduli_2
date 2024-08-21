@@ -1,2 +1,2 @@
-nombre = input("Kirjoita sinun nimi: ")
-print(f"Terve, {nombre}!")
+nimi = input("Kirjoita sinun nimi: ")
+print(f"Terve, {nimi}!")
